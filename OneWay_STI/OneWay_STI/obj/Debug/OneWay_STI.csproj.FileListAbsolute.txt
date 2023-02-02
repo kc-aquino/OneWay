@@ -1,0 +1,36 @@
+D:\Laptop_Codes\CODES\STI - C#\OneWay_STI\OneWay_STI\obj\Debug\OneWay_STI.csproj.AssemblyReference.cache
+D:\Laptop_Codes\CODES\STI - C#\OneWay_STI\OneWay_STI\obj\Debug\OneWay_STI.csproj.SuggestedBindingRedirects.cache
+D:\Laptop_Codes\CODES\STI - C#\OneWay_STI\OneWay_STI\obj\Debug\OneWayUI.FrmBack.resources
+D:\Laptop_Codes\CODES\STI - C#\OneWay_STI\OneWay_STI\obj\Debug\OneWayUI.FrmFront.resources
+D:\Laptop_Codes\CODES\STI - C#\OneWay_STI\OneWay_STI\obj\Debug\OneWay.FrmFullScale.resources
+D:\Laptop_Codes\CODES\STI - C#\OneWay_STI\OneWay_STI\obj\Debug\Baby_Thesis_Test.FrmGazeMoto.resources
+D:\Laptop_Codes\CODES\STI - C#\OneWay_STI\OneWay_STI\obj\Debug\Baby_Thesis_Test.FrmHome.resources
+D:\Laptop_Codes\CODES\STI - C#\OneWay_STI\OneWay_STI\obj\Debug\OneWayUI.FrmSide.resources
+D:\Laptop_Codes\CODES\STI - C#\OneWay_STI\OneWay_STI\obj\Debug\Baby_Thesis_Test.inputInfo.resources
+D:\Laptop_Codes\CODES\STI - C#\OneWay_STI\OneWay_STI\obj\Debug\OneWay_STI.Properties.Resources.resources
+D:\Laptop_Codes\CODES\STI - C#\OneWay_STI\OneWay_STI\obj\Debug\OneWay_STI.csproj.GenerateResource.cache
+D:\Laptop_Codes\CODES\STI - C#\OneWay_STI\OneWay_STI\obj\Debug\OneWay_STI.csproj.CoreCompileInputs.cache
+D:\Laptop_Codes\CODES\STI - C#\OneWay_STI\OneWay_STI\bin\Debug\OneWay_STI.exe.config
+D:\Laptop_Codes\CODES\STI - C#\OneWay_STI\OneWay_STI\bin\Debug\OneWay_STI.exe
+D:\Laptop_Codes\CODES\STI - C#\OneWay_STI\OneWay_STI\bin\Debug\OneWay_STI.pdb
+D:\Laptop_Codes\CODES\STI - C#\OneWay_STI\OneWay_STI\obj\Debug\OneWay_STI.exe
+D:\Laptop_Codes\CODES\STI - C#\OneWay_STI\OneWay_STI\obj\Debug\OneWay_STI.pdb
+D:\Laptop_Codes\CODES\STI - C#\OneWay_STI\OneWay_STI\obj\Debug\OneWay_STI.FrmParkingInfo.resources
+C:\Users\Kay Cee\Desktop\OneWay_STI\OneWay_STI\bin\Debug\OneWay_STI.exe.config
+C:\Users\Kay Cee\Desktop\OneWay_STI\OneWay_STI\bin\Debug\OneWay_STI.exe
+C:\Users\Kay Cee\Desktop\OneWay_STI\OneWay_STI\bin\Debug\OneWay_STI.pdb
+C:\Users\Kay Cee\Desktop\OneWay_STI\OneWay_STI\obj\Debug\OneWay_STI.csproj.AssemblyReference.cache
+C:\Users\Kay Cee\Desktop\OneWay_STI\OneWay_STI\obj\Debug\OneWay_STI.csproj.SuggestedBindingRedirects.cache
+C:\Users\Kay Cee\Desktop\OneWay_STI\OneWay_STI\obj\Debug\OneWayUI.FrmBack.resources
+C:\Users\Kay Cee\Desktop\OneWay_STI\OneWay_STI\obj\Debug\OneWayUI.FrmFront.resources
+C:\Users\Kay Cee\Desktop\OneWay_STI\OneWay_STI\obj\Debug\OneWay.FrmFullScale.resources
+C:\Users\Kay Cee\Desktop\OneWay_STI\OneWay_STI\obj\Debug\Baby_Thesis_Test.FrmGazeMoto.resources
+C:\Users\Kay Cee\Desktop\OneWay_STI\OneWay_STI\obj\Debug\Baby_Thesis_Test.FrmHome.resources
+C:\Users\Kay Cee\Desktop\OneWay_STI\OneWay_STI\obj\Debug\OneWay_STI.FrmParkingInfo.resources
+C:\Users\Kay Cee\Desktop\OneWay_STI\OneWay_STI\obj\Debug\OneWayUI.FrmSide.resources
+C:\Users\Kay Cee\Desktop\OneWay_STI\OneWay_STI\obj\Debug\Baby_Thesis_Test.inputInfo.resources
+C:\Users\Kay Cee\Desktop\OneWay_STI\OneWay_STI\obj\Debug\OneWay_STI.Properties.Resources.resources
+C:\Users\Kay Cee\Desktop\OneWay_STI\OneWay_STI\obj\Debug\OneWay_STI.csproj.GenerateResource.cache
+C:\Users\Kay Cee\Desktop\OneWay_STI\OneWay_STI\obj\Debug\OneWay_STI.csproj.CoreCompileInputs.cache
+C:\Users\Kay Cee\Desktop\OneWay_STI\OneWay_STI\obj\Debug\OneWay_STI.exe
+C:\Users\Kay Cee\Desktop\OneWay_STI\OneWay_STI\obj\Debug\OneWay_STI.pdb

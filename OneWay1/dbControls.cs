@@ -15,7 +15,7 @@ namespace OneWay1
     {
         
         //Declaration of variables
-        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Kc\Desktop\OneWay1-20230120T174530Z-001\OneWay1\OneWay1\dbAccountsDatabase.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\_CODES\GitHub\OneWay\OneWay1\dbAccountsDatabase.mdf;Integrated Security=True");
         SqlCommand comm;
         public SqlDataAdapter dAdapater;
         List<SqlParameter> Params = new List<SqlParameter>();

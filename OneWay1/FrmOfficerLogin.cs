@@ -37,8 +37,6 @@ namespace OneWay1
             }
             MessageBox.Show("Invalid Username or Password", "Invalid", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             return false;
-
-
         }
 
         private void cbShowPass_CheckedChanged(object sender, EventArgs e)
@@ -84,10 +82,7 @@ namespace OneWay1
             dbControl.Param("@DateTime",GetCurrentTime());
             dbControl.Param("@Name", txUserName.Text);
             dbControl.Query("insert into tblAdminLogbook (LoginTime, Name) values (@DateTime,@Name)");
-       
-           
           
-
             if (dbControl.Check4Error(true))
             {
                 return;
@@ -108,8 +103,6 @@ namespace OneWay1
             FrmAdminLogin FrmAdmin = new FrmAdminLogin();
             this.Hide();
             FrmAdmin.Show();
-            
-          
         }
     }
 }

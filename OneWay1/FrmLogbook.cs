@@ -21,7 +21,7 @@ namespace OneWay1
         private void FrmLogbook_Load(object sender, EventArgs e)
         {
             String query = "SELECT * FROM ParkingInfo";
-            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Kc\Desktop\OneWay1-20230120T174530Z-001\OneWay1\OneWay1\dbAccountsDatabase.mdf;Integrated Security=True");
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\_CODES\GitHub\OneWay\OneWay1\dbAccountsDatabase.mdf;Integrated Security=True");
             SqlCommand cmd = new SqlCommand(query, con);
             SqlDataAdapter da = new SqlDataAdapter();
             da.SelectCommand= cmd;
