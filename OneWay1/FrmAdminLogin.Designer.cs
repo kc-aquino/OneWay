@@ -72,6 +72,7 @@
             this.cbShowPass.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbShowPass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbShowPass.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbShowPass.ForeColor = System.Drawing.Color.White;
             this.cbShowPass.Location = new System.Drawing.Point(228, 276);
             this.cbShowPass.Name = "cbShowPass";
             this.cbShowPass.Size = new System.Drawing.Size(127, 27);
@@ -86,7 +87,7 @@
             this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.Font = new System.Drawing.Font("Palatino Linotype", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.ForeColor = System.Drawing.Color.Black;
+            this.btnLogin.ForeColor = System.Drawing.Color.White;
             this.btnLogin.Location = new System.Drawing.Point(87, 309);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(221, 49);
@@ -99,7 +100,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Palatino Linotype", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label2.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(28, 192);
             this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
@@ -111,7 +112,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Palatino Linotype", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(28, 102);
             this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
@@ -121,7 +122,8 @@
             // 
             // txPass
             // 
-            this.txPass.BackColor = System.Drawing.Color.LemonChiffon;
+            this.txPass.BackColor = System.Drawing.Color.White;
+            this.txPass.ForeColor = System.Drawing.Color.Black;
             this.txPass.Location = new System.Drawing.Point(36, 242);
             this.txPass.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.txPass.Name = "txPass";
@@ -131,8 +133,9 @@
             // 
             // txUserName
             // 
-            this.txUserName.BackColor = System.Drawing.Color.LemonChiffon;
+            this.txUserName.BackColor = System.Drawing.Color.White;
             this.txUserName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txUserName.ForeColor = System.Drawing.Color.Black;
             this.txUserName.Location = new System.Drawing.Point(33, 152);
             this.txUserName.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.txUserName.Name = "txUserName";
@@ -158,7 +161,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(255)))), ((int)(((byte)(144)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(84)))), ((int)(((byte)(122)))));
             this.ClientSize = new System.Drawing.Size(378, 405);
             this.Controls.Add(this.label4);
             this.Controls.Add(pictureBox1);

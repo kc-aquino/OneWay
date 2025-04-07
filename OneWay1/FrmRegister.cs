@@ -67,5 +67,10 @@ namespace OneWay1
                 MessageBox.Show("Please make sure that both password are the same.", "Different Password.", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void FrmRegister_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

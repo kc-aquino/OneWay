@@ -7,7 +7,7 @@ using System.Data.SqlClient;
 using System.Windows.Forms;
 using System.IO;
 using System.Data;
-using System.Security.Cryptography.X509Certificates;
+using System.Security.Cryptography.X509Certificates;    
 
 namespace OneWay1
 {
@@ -15,7 +15,7 @@ namespace OneWay1
     {
         
         //Declaration of variables
-        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Kc\Desktop\OneWay1-20230120T174530Z-001\OneWay1\OneWay1\dbAccountsDatabase.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Laptop_Codes\Github\OneWay\OneWay1\dbAccountsDatabase.mdf;Integrated Security=True;Connect Timeout=30");
         SqlCommand comm;
         public SqlDataAdapter dAdapater;
         List<SqlParameter> Params = new List<SqlParameter>();

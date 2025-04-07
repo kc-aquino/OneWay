@@ -19,7 +19,7 @@ namespace Baby_Thesis_Test
     {
         public static inputInfo Instance;
         public TextBox parkSpace;
-        public string conString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Kc\Desktop\OneWay1-20230120T174530Z-001\OneWay1\OneWay1\dbAccountsDatabase.mdf;Integrated Security=True";
+        public string conString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Laptop_Codes\Github\OneWay\OneWay1\dbAccountsDatabase.mdf;Integrated Security=True";
         int countID;
 
         public inputInfo()
@@ -43,11 +43,20 @@ namespace Baby_Thesis_Test
         private void btnOccupy_Click(object sender, EventArgs e)
         {
             string strID = countID.ToString();
-            String parkingLot = txtLot.Text;
-            String timeIn = txtTimeIn.Text;
-            String driverName = txtName.Text;
-            String plateNo = txtPlateNo.Text;
-            String purpose = cbPurpose.SelectedItem.ToString();
+            String parkingLot = txtLot.Text.Trim();
+            String timeIn = txtTimeIn.Text.Trim();
+            String driverName = txtName.Text.Trim();
+            String plateNo = txtPlateNo.Text.Trim();
+            String purpose = cbPurpose.SelectedItem != null ? cbPurpose.SelectedItem.ToString() : "";
+
+            if (string.IsNullOrWhiteSpace(driverName) ||
+            string.IsNullOrWhiteSpace(plateNo) ||
+            string.IsNullOrWhiteSpace(purpose))
+            {
+                MessageBox.Show("Please fill in all required fields.", "Missing Information", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
 
             // input to form 1 label variable'
             //Instance.parkSpace.Text = txtLot.Text + ": " + txtPlateNo.Text;

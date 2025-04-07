@@ -31,7 +31,6 @@ namespace OneWayUI
 
                 //get
                 inputInfo.Instance.parkSpace.Text = space;
-                butt.Enabled = false;
             }
             else if(butt.BackColor == Color.Red)
             {

@@ -36,17 +36,29 @@
             this.btnLogin = new System.Windows.Forms.Button();
             this.cbShowPass = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.dtpLogin = new System.Windows.Forms.DateTimePicker();
             this.label4 = new System.Windows.Forms.Label();
+            this.dtpLogin = new System.Windows.Forms.DateTimePicker();
             pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
+            // pictureBox2
+            // 
+            pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(142)))), ((int)(((byte)(184)))));
+            pictureBox2.BackgroundImage = global::OneWay1.Properties.Resources.logo_O;
+            pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            pictureBox2.Location = new System.Drawing.Point(-5, -4);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new System.Drawing.Size(100, 90);
+            pictureBox2.TabIndex = 15;
+            pictureBox2.TabStop = false;
+            // 
             // txUserName
             // 
-            this.txUserName.BackColor = System.Drawing.Color.LemonChiffon;
+            this.txUserName.BackColor = System.Drawing.Color.White;
             this.txUserName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txUserName.Location = new System.Drawing.Point(33, 181);
+            this.txUserName.ForeColor = System.Drawing.Color.Black;
+            this.txUserName.Location = new System.Drawing.Point(36, 164);
             this.txUserName.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.txUserName.Name = "txUserName";
             this.txUserName.Size = new System.Drawing.Size(319, 33);
@@ -54,7 +66,8 @@
             // 
             // txPass
             // 
-            this.txPass.BackColor = System.Drawing.Color.LemonChiffon;
+            this.txPass.BackColor = System.Drawing.Color.White;
+            this.txPass.ForeColor = System.Drawing.Color.Black;
             this.txPass.Location = new System.Drawing.Point(36, 271);
             this.txPass.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.txPass.Name = "txPass";
@@ -67,8 +80,8 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Palatino Linotype", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.label1.Location = new System.Drawing.Point(28, 131);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(28, 114);
             this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(161, 43);
@@ -79,7 +92,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Palatino Linotype", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label2.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(28, 221);
             this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
@@ -93,7 +106,7 @@
             this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.Font = new System.Drawing.Font("Palatino Linotype", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.ForeColor = System.Drawing.Color.Black;
+            this.btnLogin.ForeColor = System.Drawing.Color.White;
             this.btnLogin.Location = new System.Drawing.Point(83, 338);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(221, 49);
@@ -130,14 +143,6 @@
             this.label3.Text = "Login Form";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // dtpLogin
-            // 
-            this.dtpLogin.Location = new System.Drawing.Point(36, 95);
-            this.dtpLogin.Name = "dtpLogin";
-            this.dtpLogin.Size = new System.Drawing.Size(301, 33);
-            this.dtpLogin.TabIndex = 7;
-            this.dtpLogin.ValueChanged += new System.EventHandler(this.dtpLogin_ValueChanged);
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -152,22 +157,19 @@
             this.label4.Text = "Admin";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
-            // pictureBox2
+            // dtpLogin
             // 
-            pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(142)))), ((int)(((byte)(184)))));
-            pictureBox2.BackgroundImage = global::OneWay1.Properties.Resources.logo_O;
-            pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            pictureBox2.Location = new System.Drawing.Point(-5, -4);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new System.Drawing.Size(100, 90);
-            pictureBox2.TabIndex = 15;
-            pictureBox2.TabStop = false;
+            this.dtpLogin.Location = new System.Drawing.Point(36, 95);
+            this.dtpLogin.Name = "dtpLogin";
+            this.dtpLogin.Size = new System.Drawing.Size(301, 33);
+            this.dtpLogin.TabIndex = 7;
+            this.dtpLogin.ValueChanged += new System.EventHandler(this.dtpLogin_ValueChanged);
             // 
             // FrmOfficerLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(255)))), ((int)(((byte)(144)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(84)))), ((int)(((byte)(122)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(392, 435);
             this.Controls.Add(pictureBox2);
@@ -202,7 +204,7 @@
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.CheckBox cbShowPass;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.DateTimePicker dtpLogin;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.DateTimePicker dtpLogin;
     }
 }
